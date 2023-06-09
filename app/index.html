@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ski Resort</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Serif+SC&family=Open+Sans:wght@400;600&family=Poly&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="aboutus.html">About us</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="gallery.html">Gallery</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="#" class="logo">
+            <img src="images/logo.svg" alt="logo">
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="tickets.html">Alpine Skiing</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="news.html">News</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="login-icon">
+            <img src="images/register-icon.png" alt="register-icon">
+          </button>
+      
+        </div>
+      </div>
+    </header>
+
+    
+
+    <main class="main">
+      <div class="wrapper1">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+        <div class="form-box login">
+          <h2>Login</h2>
+          <form method="post" action="">
+            <div class="input-box">
+              <span class="icon"><ion-icon name="mail"></ion-icon></span>
+              <input name="email" type="email" required>
+              <label>Email</label>
+            </div>
+  
+            <div class="input-box">
+              <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+              <input name="password" type="password" required>
+              <label>Password</label>
+            </div>
+  
+            <!-- <div class="remember-forgot">
+              <label><input type="checkbox">Remember me</label>
+              <a href="#">Forgot Password?</a>
+            </div> -->
+            <button class="btn-login" name="login_submit" type="submit">Login</button>
+  
+            <div class="login-register">
+              <p>Don`t have an account? <a href="#" class="register-link">Register</a></p>
+            </div>
+          </form>
+        </div>
+     
+
+
+      
+        <div class="form-box register">
+          <h2>Registration</h2>
+          <form method="post" action="">
+
+            <div class="input-box">
+              <span class="icon"><ion-icon name="person"></ion-icon></span>
+              <input type="text" name="name" required>
+              <label>Username</label>
+            </div>
+
+            <div class="input-box">
+              <span class="icon"><ion-icon name="mail"></ion-icon></span>
+              <input type="email" name="email" required>
+              <label>Email</label>
+            </div>
+  
+            <div class="input-box">
+              <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+              <input type="password" name="password" required>
+              <label>Password</label>
+            </div>
+  
+            <!-- <div class="remember-forgot">
+              <label><input type="checkbox">Remember me</label>
+              <a href="#">Forgot Password?</a>
+            </div> -->
+            <button class="btn-register" name="register_submit" type="submit">Register</button>
+            <div class="login-register">
+              <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+            </div>
+            
+            
+          </form>
+        </div>
+      </div>
+
+
+      <section class="top">
+
+        <div class="top__inner">
+          <div class="top__slider">
+
+
+            <div class="top__slider-item top__slider-item--1">
+              <div class="top__slider-info top__slider-info--1">
+                <div class="top__slider-box">
+                  <p class="top__slider-title top__slider-title--1">Get ready for an unforgettable winter adventure at
+                    our world-class ski
+                    resort </p>
+                </div>
+                <div class="top__slider-el top__slider-el--1">
+                  <a class="top__slider-link top__slider-link--1" href="#">Alpine skiing resorts</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="top__slider-item top__slider-item--2">
+              <div class="top__slider-info top__slider-info--2">
+                <div class="top__slider-box">
+                  <p class="top__slider-title top__slider-title--2">Your ski vacation starts here – book your hotel on
+                    the
+                    slopes today</p>
+                </div>
+                <div class="top__slider-el top__slider-el--2">
+                  <a class="top__slider-link top__slider-link--2" href="#">Book Now</a>
+                </div>
+
+              </div>
+            </div>
+
+
+
+
+            <div class="top__slider-item top__slider-item--3">
+              <div class="top__slider-info top__slider-info--3">
+                <div class="top__slider-box">
+                  <p class="top__slider-title top__slider-title--3">Make your ski moments last forever - reserve a
+                    photographer for your
+                    mountain getaway</p>
+                </div>
+                <div class="top__slider-el top__slider-el--3">
+                  <a class="top__slider-link top__slider-link--3" href="#">More Info</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      
+      <section class="new-collection">
+        <div class="container-fluid">
+          <div class="collection">
+
+
+
+            <a class="collection__item" href="#">
+              <img class="collection__images" src="images/collection-1.jpg" alt="collection">
+              <div class="collection__info">
+                <h6 class="collection__info-title">
+                  Ski resort Slavske
+                </h6>
+                <p class="collection__info-text">Ski adventures in Slavske</p>
+              </div>
+            </a>
+
+            <a class="collection__item" href="#">
+              <img class="collection__images" src="images/collection-2.jpg" alt="collection">
+              <div class="collection__info">
+                <h6 class="collection__info-title">
+                  Ski resort Dragobrat
+                </h6>
+                <p class="collection__info-text">Memorable winter getaway</p>
+              </div>
+            </a>
+
+
+            <a class="collection__item" href="#">
+              <img class="collection__images" src="images/collection-3.jpg" alt="collection">
+              <div class="collection__info">
+                <h6 class="collection__info-title">
+                  Ski resort Slavske
+                </h6>
+                <p class="collection__info-text">Ski adventures in Slavske</p>
+              </div>
+            </a>
+
+
+            <a class="collection__item" href="#">
+              <img class="collection__images" src="images/collection-4.jpg" alt="collection">
+              <div class="collection__info">
+                <h6 class="collection__info-title">
+                  Ski resort Slavske
+                </h6>
+                <p class="collection__info-text">Ski adventures in Slavske</p>
+              </div>
+            </a>
+
+
+            <a class="collection__item" href="#">
+              <img class="collection__images" src="images/collection-5.jpg" alt="collection">
+              <div class="collection__info">
+                <h6 class="collection__info-title">
+                  Ski resort Slavske
+                </h6>
+                <p class="collection__info-text">Ski adventures in Slavske</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="decor">
+        <h2 class="decor__title">Mountains<br>inspire greatness</h2>
+        <p class="decor__text">"There is magic in the mountains. They have the ability to astonish, evoke a sense of
+          wonder, and bring peace to the soul." - John Muir</p>
+      </section>
+
+
+      <div class="gallery">
+        <div class="container-fluid">
+          <div class="gallery__buttons">
+            <button class="gallery__btn" data-filter=".bukovel">Bukovel</button>
+            <button class="gallery__btn" data-filter=".slavske">Slavske</button>
+            <button class="gallery__btn" data-filter=".dragobrat">Dragobrat</button>
+            <button class="gallery__btn" data-filter=".hoverla">Hoverla</button>
+            <button class="gallery__btn" data-filter=".other">Other</button>
+          </div>
+          <div class="gallery__inner">
+            <div class="gallery__items mix bukovel">
+              <img class="gallery__item" src="images/gallery-1.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-2.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-3.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-4.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-5.jpg" alt="img">
+            </div>
+
+            <div class="gallery__items mix slavske">
+              <img class="gallery__item" src="images/gallery-slavske-1.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-slavske-2.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-slavske-3.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-slavske-4.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-slavske-5.jpg" alt="img">
+            </div>
+
+
+
+            <div class="gallery__items mix dragobrat">
+              <img class="gallery__item" src="images/gallery-1.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-2.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-3.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-4.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-5.jpg" alt="img">
+            </div>
+
+
+            <div class="gallery__items mix hoverla">
+              <img class="gallery__item" src="images/gallery-1.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-2.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-3.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-4.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-5.jpg" alt="img">
+            </div>
+
+
+
+            <div class="gallery__items mix other">
+              <img class="gallery__item" src="images/gallery-1.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-2.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-3.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-4.jpg" alt="img">
+              <img class="gallery__item" src="images/gallery-5.jpg" alt="img">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <section class="blog">
+        <div class="container">
+          <h3 class="blog__title">News</h3>
+          <div class="slider">
+            <div class="slider__item">
+              <img class="slider__item-img" src="images/blog-1.jpg" alt="blog images">
+              <div class="slider__item-info">
+                March 12, 2023
+              </div>
+              <a class="slider__item-title" href="#">
+                Start of the low season/ Buy ski passes at a reduced price!
+              </a>
+            </div>
+
+            <div class="slider__item">
+              <img class="slider__item-img" src="images/blog-2.jpg" alt="blog images">
+              <div class="slider__item-info">
+                September 28,2023
+              </div>
+              <a class="slider__item-title" href="#">
+                To Bukovel by train
+              </a>
+            </div>
+
+
+            <div class="slider__item">
+              <img class="slider__item-img" src="images/blog-3.jpg" alt="blog images">
+              <div class="slider__item-info">
+                April 28,2023
+              </div>
+              <a class="slider__item-title" href="#">
+                Low season rates now in effect!
+              </a>
+            </div>
+
+
+            <div class="slider__item">
+              <img class="slider__item-img" src="images/blog-1.jpg" alt="blog images">
+              <div class="slider__item-info">
+                March 12, 2023
+              </div>
+              <a class="slider__item-title" href="#">
+                Start of the low season/ Buy ski passes at a reduced price!
+              </a>
+            </div>
+
+            <div class="slider__item">
+              <img class="slider__item-img" src="images/blog-2.jpg" alt="blog images">
+              <div class="slider__item-info">
+                September 28,2023
+              </div>
+              <a class="slider__item-title" href="#">
+                To Bukovel by train
+              </a>
+            </div>
+
+
+            <div class="slider__item">
+              <img class="slider__item-img" src="images/blog-3.jpg" alt="blog images">
+              <div class="slider__item-info">
+                April 28,2023
+              </div>
+              <a class="slider__item-title" href="#">
+                Low season rates now in effect!
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__info">
+              <h6 class="footer__info-title">
+                Contact us
+              </h6>
+              <p class="footer__info-text">
+                If you want to contact us, write your email
+              </p>
+              <a class="footer__info-email" href="mailto:ouremailaddress@email.com">ouremailaddress@email.com</a>
+              <form class="footer__form">
+                <input class="footer__form-input" type="email" placeholder="Subscribe by email">
+                <button class="footer__form-btn" type="submit">Send</button>
+              </form>
+            </div>
+            <ul class="footer__social">
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--facebook" href="#">Facebook</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--instagram" href="#">Instagram</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--pinterest" href="#">Pinterest</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--whatsapp" href="#">WhatsApp</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer__social-link--youtube" href="#">YouTube</a>
+              </li>
+            </ul>
+            <nav class="footer__menu">
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">FAQ</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Help</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">More About Us</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <div class="container">
+          <p>Ukraine</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mixitup/dist/mixitup.min.js"></script>
+
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
